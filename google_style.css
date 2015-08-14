@@ -1,0 +1,266 @@
+*{
+/*CSS User agent stylesheet reset*/
+	margin:0;
+	padding:0;
+	}
+
+body{
+	min-width:980px;
+	overflow: x-scroll;
+	font-family:Arial,sans-serif;
+	font-size: small;}
+	
+html{height:100%;}
+	
+.container{
+	min-width: 980px;
+	position: absolute;
+	width: 100%;
+	min-height: 100%;}
+	
+header{
+	padding-top:13px;
+	margin-right:30px;
+	min-width:980px;
+	width: 100%;
+	height: 30px;
+	position:absolute;}
+
+header ul{
+	height:30px;
+	float:right;
+	margin-right:30px;}
+	
+a{
+	display:block;
+	color:#343434;
+	text-decoration:none;}
+	
+a:hover{
+	text-decoration:underline}
+	
+header li{
+	vertical-align:middle;
+	margin-right:15px;
+	display:inline-block;
+	margin-top:2px;}
+
+header li:first-child{
+	opacity:0.55;}
+	
+header li:nth-child(2){
+	opacity:0.85;}
+
+header li:nth-child(3){
+	opacity:0.85;
+	margin-right:14px;}
+	
+header li:nth-child(6){
+	margin-right:0;}
+
+header ul li #apps{
+	opacity:0.55;
+	width: 25px;
+	height: 25px;
+	background-image: url("imgs/Apps_icon.png");
+	background-size:24px 24px;
+	margin-top:2px;}
+
+ul li #apps:hover, ul li #bell:hover{
+	opacity:1;}
+	
+header ul li #bell{
+	opacity:0.55;
+	background-image: url("imgs/Bell.png");
+	width:25.5px;
+	height:25.5px;
+	background-size:25.25px 25.25px;
+	margin:0px -1px -1px 0px;}
+
+header ul li #account{
+	background-image: url("imgs/BlueHead_acc_icon.png");
+	border-radius:50%;
+	width:32px;
+	height:32px;
+	background-size:32px 32px;
+	margin:-1px;}
+	
+	
+.mainbody{
+	margin-top: 80px;
+	display: block;
+	min-width: 980px;
+	width: 100%;
+	height:309px;
+	padding-bottom: 35px;
+	position:absolute;}	
+
+.logo{
+	height: 95px;
+	width: 100%;
+	display:block;
+	padding-top: 112px;
+	padding-bottom:24px;
+	}
+
+img{
+	display:block;
+	width:272px;
+	height:92px;
+	margin-left:auto;
+	margin-right:auto;}
+
+form{
+    overflow: visible;
+	width: 1139px;
+	margin: 0 auto;
+}
+
+.sbborder{
+	min-width:568px;
+	display:block;
+}
+	
+.sform{
+	min-width:568px;
+	display:inline-block;	
+	height: 88px;
+	margin:-1px auto 0;
+	padding-left: 284px;
+    padding-right: 284px;}
+	
+.search_box{
+	display:block;
+	margin: 2px 0 2px;
+	min-width:568px;height:28px;
+	border: 1px solid #d9d9d9;
+	border-top-color: #c0c0c0;}
+	
+.search_box:hover{
+	border: 1px solid #b9b9b9;
+	border-top-color: #a0a0a0;}
+	
+.search_box.activeElement {
+	border: 1px solid #4d90fe;}
+
+.search:focus{
+	outline:none;}
+
+.search{
+	display:inline-block;
+	margin:3px 0;
+	border: none;
+	width: 437px;
+	font: 16px arial,sans-serif;
+	line-height: 20px !important;
+	height: 20px !important;
+	padding: 1px 9px 1px 9px;}
+	
+#mic{
+float:right;
+	display:inline-block;
+	opacity:0.65;
+	background-image: url("imgs/Microphone.png");
+	width:20px;
+	height:20px;
+	background-size:18.5px 19px;
+	background-position:center;
+	background-repeat:no-repeat;
+	padding: 3px 4px;}
+	
+#mic:hover{
+	opacity:1;
+}
+	
+.search_buttons{
+	padding-top:2px;
+	text-align:center;
+	width:571px; height:51px;
+	display:block;
+	margin:auto;
+}
+
+#goo_search{
+    border-radius: 2px;
+	text-align: center;
+	color: #444;
+	border: 1px solid rgba(0,0,0,0.1);
+	height: 29px;
+	line-height: 27px;
+	background-color: #f5f5f5;
+	background-image:-webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+	font-size: 11px;
+    font-weight: bold;
+    margin: 11px 8px;
+    min-width: 54px;
+	padding: 0 8px;}
+	
+#lucky{
+    border-radius: 2px;
+	text-align: center;
+	color: #444;
+	border: 1px solid rgba(0,0,0,0.1);
+	height: 29px;
+	line-height: 27px;
+	background-color: #f5f5f5;
+	background-image:-webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+	font-size: 11px;
+    font-weight: bold;
+    margin: 11px 8px;
+    min-width: 54px;
+	padding: 0 8px;}
+	
+footer{
+	opacity:0.90;
+	background:#f2f2f2;
+	border-top:1px solid #e4e4e4;
+	bottom:0;
+	position:absolute;
+	min-height:40px;
+	min-width:980px;
+	width: 100%;
+}
+
+footer li{
+	vertical-align:middle;
+	margin-right:27px;
+	display:inline-block;}
+
+.left_footer{
+	padding-top: 11px;
+	float: left;
+	margin-left: 30px;}
+
+.right_footer{
+	padding-top: 11px;
+	float:right;
+	margin-right: 3px;}
+
+	
+	/*Media Queries*/
+	@media only screen and (max-width: 1250px) {
+		.sform{
+			min-width: 487px;
+			width: 487px;
+			padding-left: 173px;
+			padding-right: 173px;
+		}
+		
+		form{
+			width:833px;
+		}
+		
+		.sbborder{
+			min-width:485px;
+		}
+				
+		.search_box{
+			min-width: 485px;
+		}
+		
+		.search_buttons{
+			width:487px;
+		}
+	
+		
+	}

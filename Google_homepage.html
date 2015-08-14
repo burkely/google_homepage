@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Google</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script type="text/javascript" src="google_jq.js"></script>
+	<link rel="stylesheet" href="google_style.css">
+</head>
+
+<body>
+
+<div class="container">
+	
+	<header>
+		<ul>
+			<li>Lydia
+			</li><li><a href="#">Mail</a>
+			</li><li><a href="#">Images</a></li>
+			<li><a id="apps" href="#"></a></li>
+			<li><a id="bell" href="#"></a></li>
+			<li><a id="account" href="#"></a></li>
+		</ul>
+	</header>
+
+	<div class="mainbody">
+	
+		<div class="logo">
+			<img src="imgs/Logo_Google_2013_Official12.png" alt="Google Logo">
+		</div> <!--end of logo div-->
+		
+		<form action="searchscript.php" method="get">
+			<div class="sform">
+				<div class="sbborder">
+					<div tabindex="0" class="search_box" onclick="activeElement(this);">
+						<input class="search"  type="text" name="searchnm" > 
+						<a id="mic"></a>
+					</div> <!--end of search box div-->
+				</div> <!--end of sbborder -->
+		
+				<div class="search_buttons">
+					<input id="goo_search" value="Google Search" aria-label="Google Search" name="btnGS" type="submit"
+					><input id="lucky" value="I'm Feeling Lucky" aria-label="I'm Feeling Lucky" name="btnIL" type="submit">
+				</div> <!--end of search_button div-->
+			</div> <!--end of sform div-->
+		</form>
+		
+	</div><!--end of mainbody-->
+	
+	
+	<footer>
+		 <ul class="left_footer">    
+			<li><a href="#">Advertising</a></li>
+			<li><a href="#">Business</a></li>
+			<li><a href="#">About</a></li>
+		</ul>
+		<ul class="right_footer">
+			<li><a href="#">Privacy</a></li>
+			<li><a href="#">Terms</a></li>
+			<li><a href="#">Settings</a></li>
+			<li><a href="#">Use Google.com</a></li>
+
+      </ul>
+		
+	</footer>
+			
+</div> <!--end of container div-->
+</body>
+</html>
+	
+	
+	
+	
