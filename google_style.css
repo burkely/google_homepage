@@ -210,6 +210,14 @@ float:right;
     min-width: 54px;
 	padding: 0 8px;}
 	
+#goo_search:hover, #lucky:hover{
+	border-color:#c6c6c6;
+	color:#222 !important;
+	-webkit-box-shadow:0 1px 0 rgba(0,0,0,0.15);
+	box-shadow:0 1px 0 rgba(0,0,0,0.15);
+	background:#f8f8f8;
+	background:-webkit-linear-gradient(top, #f8f8f8, #f1f1f1)}
+	
 footer{
 	opacity:0.90;
 	background:#f2f2f2;
